@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="~\Documents\Codex\2026-11-08\new-chat\outputs\lab_03\.venv" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="~\OneDrive\Документы\lab_03\.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
