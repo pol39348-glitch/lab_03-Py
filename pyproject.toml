@@ -1,0 +1,25 @@
+[build-system]
+descriptrequires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "book-catalog"
+version = "0.1.0"
+description = "A simple library book catalog"
+requires-python = ">=3.10"
+
+[project.scripts]
+toolkit = "toolkit.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
