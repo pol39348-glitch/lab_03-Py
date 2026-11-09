@@ -28,5 +28,5 @@ class Book:
         if isinstance(self.year, bool) or not isinstance(self.year, int):
             raise InvalidBookError("year must be an integer")
 
-        if self.year < -9999 or self.year > 9999:
-            raise InvalidBookError("year must be between -9999 and 9999")
+        if self.year < 1 or self.year > 9999:
+            raise InvalidBookError("year must be between 1 and 9999")

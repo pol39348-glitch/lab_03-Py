@@ -1,0 +1,2 @@
+[console_scripts]
+toolkit = toolkit.__main__:main
